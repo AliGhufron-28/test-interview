@@ -25,7 +25,7 @@
         <div class="form-floating mb-3 mt-3">
             <input type="text" class="form-control input-color" id="jumlah" placeholder="Masukkan Jumlah Barang" 
             name="jumlah" value="{{ $barang->jumlah }}">
-            <label for="jumlah">Alamat</label>
+            <label for="jumlah">Jumlah</label>
         </div>
           <button type="submit" class="btn btn-primary" name="submit">Ubah</button>
         </form>
